@@ -1,0 +1,10 @@
+.chess-table{
+    display: flex;
+    flex-wrap: wrap;
+}
+.chess-table div:nth-child(even){
+    background-color: red;
+}
+.chess-table div:nth-child(odd){
+    background-color: green;
+}

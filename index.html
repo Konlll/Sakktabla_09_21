@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakktábla</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div>
+        <h2>Mezők száma</h2>
+        <input type="range" id="number-of-fields" min="2" max="10" value="2">
+        <span id="output-number-of-fields"></span>
+    </div>
+    <div>
+        <h2>Mezők mérete</h2>
+        <input type="range" id="size-of-fields" min="30" max="100" value="30">
+        <span id="output-size-of-fields"></span>
+    </div>
+    <button id="create">Létrehoz</button>
+
+    <div class="chess-table"></div>
+</body>
+
+</html>
