@@ -55,9 +55,6 @@ const createChessTable = (numberOfFields, sizeOfFields, chessTable) => {
             if(numberOfFields % 2 == 0){
                 setColBackground(div, i, j, "red", "green")
             }
-            else{
-                setColBackground(div, i, j, "red", "green")
-            }
             chessTable.appendChild(div)
         }
     }
